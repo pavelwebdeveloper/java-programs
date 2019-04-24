@@ -1,0 +1,13 @@
+General position 	Vehicle type position
+       1	                 1 	        Bike 1 from Germany of the BMW Company
+       2	                 2 	        Bike 2 from Italy of the Ducati Company
+       3	                 3 	        Bike 3 from Japan of the Honda Company
+       4	                 4 	        Bike 4 from USA of the HD Company
+       5	                 1 	        Car 101 from Italy of the Fiat Company
+       6	                 2 	        Car 102 from Germany of the Mercedez Company
+       7	                 3 	        Car 103 from Japan of the Toyota Company
+       8	                 4 	        Car 104 from France of the Renault Company
+       9	                 1 	        Truck 201 from Sweden of the Volvo Company
+       10	                 2 	        Truck 202 from Germany of the Mercedez Company
+       11	                 3 	        Truck 203 from Russia of the Kamaz Company
+       12	                 4 	        Truck 204 from Ukraine of the Kraz Company
