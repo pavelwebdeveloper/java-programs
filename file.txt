@@ -1,2 +1,0 @@
-This repository contains Java programs that work from the console. One of them works from the command line
-
