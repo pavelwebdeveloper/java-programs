@@ -1,3 +1,3 @@
-This application program simulates Dakar Race. It shows results for the previous race, provides a few vehicles for the new race, lets the user add more vehicles for the new race, simulates the race and shows results like positions and time for each vehicle that participates in the race.
+This console application program simulates Dakar Race. It shows results for the previous race, provides a few vehicles for the new race, lets the user add more vehicles for the new race, simulates the race and shows results like positions and time for each vehicle that participates in the race.
 The user can also choose to have for the race all the vehicles that participated in the previous race. It also shows the results of the winners. 
 At the end the application saves the results into a text file. Also the application saves the information about the vehicles that participated in the current race into a separate file.
