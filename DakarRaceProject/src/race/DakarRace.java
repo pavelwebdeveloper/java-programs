@@ -57,85 +57,85 @@ public class DakarRace {
 					
 					
 					// Try input until valid values are entered
-					while (tryInput) { 
-						try {
-			System.out.println();
-			
-			if(resultsFromPreviousRaceExist) {
-				System.out.println("The options you can choose are: ");
-				System.out.println();
-				System.out.println("0 - to skip the results for the previous Dakar Race");
-				System.out.println("1 - to see the results for the previous Dakar Race");
-				System.out.println();
-				System.out.print("Your choice: ");
-				answer = input.nextInt();
-			} else {
-				answer = 0;
-			}
-			
-			if (answer == 1) {
-				// Create a Scanner for the file
-				Scanner inputFromFile2 = new Scanner(file2);
-				
-				// Read data from the file
-				String heading = inputFromFile2.nextLine();
-				String space1 = inputFromFile2.nextLine();
-				String distance = inputFromFile2.nextLine();
-				String space2 = inputFromFile2.nextLine();
-				String paragraph = inputFromFile2.nextLine();
-				String space3 = inputFromFile2.nextLine();
-				String positions = inputFromFile2.nextLine();
-				System.out.println(heading);
-				System.out.println(space1);
-				System.out.println(distance);
-				System.out.println(space2);
-				System.out.println(paragraph);
-				System.out.println(space3);
-				System.out.println(positions);	
-				String vehicle = "";
-				while (inputFromFile2.hasNext()) {
-					vehicle = inputFromFile2.nextLine();
-					System.out.println(vehicle);
-				}
-				
-				if(vehicle.length() > 0) {
-					resultsFromPreviousRaceExist = true;
-				}
-				
-				System.out.println();
-				System.out.println();
-				
-				// Close the file
-				inputFromFile2.close();
-				// Change the boolean value so that it discontinues 
-				// the necessity to continue to try to input values
-				tryInput = false;
-			} else if (answer == 0) {
-				// Change the boolean value so that it discontinues 
-				// the necessity to continue to try to input values
-				tryInput = false;
-			} else if (answer != 0 || answer != 1) {
-				// Display the reason of the exception
-				System.out.println();
-				System.out.println("Wrong value. Please, try again. You should enter 0 or 1.");
-				// Discard previous input
-				input.nextLine();
-			}
-						} catch (InputMismatchException ex) {
-							// Display the reason of the exception
-							System.out.println();
-							System.out.println("Wrong value. Please, try again. You should enter 0 or 1.");
-							// Discard previous input
-							input.nextLine();
-						} catch (FileNotFoundException ex) {
-							// Display the reason of the exception
-							System.out.println();
-							System.out.println("Sorry the results do not exist yet so try again after a race.");
-							resultsFromPreviousRaceExist = false;
-							// Discard previous input
-							input.nextLine();
+			while (tryInput) { 
+				try {
+					System.out.println();
+					
+					if(resultsFromPreviousRaceExist) {
+						System.out.println("The options you can choose are: ");
+						System.out.println();
+						System.out.println("0 - to skip the results for the previous Dakar Race");
+						System.out.println("1 - to see the results for the previous Dakar Race");
+						System.out.println();
+						System.out.print("Your choice: ");
+						answer = input.nextInt();
+					} else {
+						answer = 0;
+					}
+					
+					if (answer == 1) {
+						// Create a Scanner for the file
+						Scanner inputFromFile2 = new Scanner(file2);
+						
+						// Read data from the file
+						String heading = inputFromFile2.nextLine();
+						String space1 = inputFromFile2.nextLine();
+						String distance = inputFromFile2.nextLine();
+						String space2 = inputFromFile2.nextLine();
+						String paragraph = inputFromFile2.nextLine();
+						String space3 = inputFromFile2.nextLine();
+						String positions = inputFromFile2.nextLine();
+						System.out.println(heading);
+						System.out.println(space1);
+						System.out.println(distance);
+						System.out.println(space2);
+						System.out.println(paragraph);
+						System.out.println(space3);
+						System.out.println(positions);	
+						String vehicle = "";
+						while (inputFromFile2.hasNext()) {
+							vehicle = inputFromFile2.nextLine();
+							System.out.println(vehicle);
 						}
-					}	
+						
+						if(vehicle.length() > 0) {
+							resultsFromPreviousRaceExist = true;
+						}
+						
+						System.out.println();
+						System.out.println();
+						
+						// Close the file
+						inputFromFile2.close();
+						// Change the boolean value so that it discontinues 
+						// the necessity to continue to try to input values
+						tryInput = false;
+					} else if (answer == 0) {
+						// Change the boolean value so that it discontinues 
+						// the necessity to continue to try to input values
+						tryInput = false;
+					} else if (answer != 0 || answer != 1) {
+						// Display the reason of the exception
+						System.out.println();
+						System.out.println("Wrong value. Please, try again. You should enter 0 or 1.");
+						// Discard previous input
+						input.nextLine();
+					}
+								} catch (InputMismatchException ex) {
+									// Display the reason of the exception
+									System.out.println();
+									System.out.println("Wrong value. Please, try again. You should enter 0 or 1.");
+									// Discard previous input
+									input.nextLine();
+								} catch (FileNotFoundException ex) {
+									// Display the reason of the exception
+									System.out.println();
+									System.out.println("Sorry the results do not exist yet so try again after a race.");
+									resultsFromPreviousRaceExist = false;
+									// Discard previous input
+									input.nextLine();
+								}
+			}	
 			
 			
 			
