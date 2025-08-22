@@ -1,0 +1,10 @@
+General position 	Vehicle type position
+       1	                 1 	        Bike 1 from Japan of the Honda Company
+       2	                 2 	        Bike 2 from England of the Norton Company
+       3	                 3 	        Bike 3 from Japan of the Yamaha Company
+       4	                 1 	        Car 101 from USA of the Ford Company
+       5	                 2 	        Car 102 from Spain of the Seat Company
+       6	                 3 	        Car 103 from Korea of the Hundai Company
+       7	                 1 	        Truck 201 from Italy of the Iveco Company
+       8	                 2 	        Truck 202 from Belorussia of the MAZ Company
+       9	                 3 	        Truck 203 from Sweden of the Volvo Company

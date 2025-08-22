@@ -1,0 +1,25 @@
+						THE RESULTS FOR THE DAKAR RACE							
+
+The total distance was 10000 km
+
+These are the vehicles that participated in the race and their results:
+
+General position 	Vehicle type position
+       1	                 1 	        Bike 2 from England of the Norton Company reached the finish in 3 days 1 hours and 39 minutes
+
+       2	                 2 	        Bike 1 from Japan of the Honda Company reached the finish in 3 days 2 hours and 8 minutes
+
+       3	                 3 	        Bike 3 from Japan of the Yamaha Company reached the finish in 3 days 3 hours and 1 minutes
+
+       4	                 1 	        Car 102 from Spain of the Seat Company reached the finish in 3 days 15 hours and 36 minutes
+
+       5	                 2 	        Car 103 from Korea of the Hundai Company reached the finish in 3 days 15 hours and 37 minutes
+
+       6	                 3 	        Car 101 from USA of the Ford Company reached the finish in 3 days 16 hours and 12 minutes
+
+       7	                 1	        Truck 202 from Belorussia of the MAZ Company reached the finish in 4 days 9 hours and 5 minutes
+
+       8	                 2	        Truck 201 from Italy of the Iveco Company reached the finish in 4 days 10 hours and 47 minutes
+
+       9	                 3	        Truck 203 from Sweden of the Volvo Company reached the finish in 4 days 12 hours and 1 minutes
+
